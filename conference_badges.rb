@@ -19,7 +19,7 @@ return new_array
    return new_array
  end
  def printer(array)
-   badge_maker(array).each do|num| 
+   batch_badge_creator(array).each do|num| 
   puts  num
  end
    assign_rooms(array).each do|num|
