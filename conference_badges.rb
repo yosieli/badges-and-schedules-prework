@@ -19,10 +19,10 @@ return new_array
    return new_array
  end
  def printer(array)
-   badge_maker(array).each|num| do
+   badge_maker(array).each do|num| 
    num
  end
-   assign_rooms(array).each|num|do
+   assign_rooms(array).each do|num|
    num
  end
     end
