@@ -18,7 +18,7 @@ return new_array
    end
    return new_array
  end
- def printer(array,elemet)
+ def printer(attendess)
    badge_maker()
    assign_rooms()
    
