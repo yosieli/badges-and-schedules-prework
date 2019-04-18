@@ -13,7 +13,7 @@ return new_array
    new_array=[]
    i=0
    array.each_with_index do|name,index|
-   new_array.push("Hello, #{name}! You'll be assigned to room #{num}!")
+   new_array.push("Hello, #{name}! You'll be assigned to room #{index}!")
    end
    return new_array
  end
