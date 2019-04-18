@@ -9,6 +9,9 @@ def badge_maker(name)
 end
 return new_array
  end
- def assign_rooms()
+ def assign_rooms(array)
+   new_array=[]
+   array.each do|name|
+   new_array.push()
    
  end
