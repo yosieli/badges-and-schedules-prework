@@ -5,7 +5,7 @@ def badge_maker(name)
  def batch_badge_creator(array)
    new_array=[]
   array.each do|message|
-  
+  new_array.push("")
   
 end
  end
