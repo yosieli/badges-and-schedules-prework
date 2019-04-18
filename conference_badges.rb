@@ -11,7 +11,7 @@ return new_array
  end
  def assign_rooms(array)
    new_array=[]
-   array.each_with_index do|name,index|
+   array.each_with_index do|name,index=1|
    new_array.push("Hello, #{name}! You'll be assigned to room #{index}!")
    end
    return new_array
