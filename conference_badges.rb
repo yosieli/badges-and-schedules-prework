@@ -18,4 +18,16 @@ return new_array
    end
    return new_array
  end
- 
+ def printer(array)
+   
+    end
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
